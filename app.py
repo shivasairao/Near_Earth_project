@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the pre-trained NEO model
 # NOTE: Replace this with your exact relative path or actual local pkl file location
-with open(r"C:\Users\asus\OneDrive\Desktop\MachineLearning_Flow\model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Page configuration
